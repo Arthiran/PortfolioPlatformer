@@ -41,7 +41,8 @@ public class PlayerController : MonoBehaviour
     private bool lastDirection = false;
 
     private Collider2D currentCollision;
-    private Collider2D previousCollision;
+
+    private Vector3 RopeOffset;
 
     void Start()
     {
@@ -64,7 +65,7 @@ public class PlayerController : MonoBehaviour
         CharAnimator.SetBool("Grounded", CheckGrounded);
         CharAnimator.SetBool("OnWall", CheckOnWall || CanClimb);
 
-        HVelocity = Input.GetAxisRaw("Horizontal");
+        HVelocity = !CanClimb ? Input.GetAxisRaw("Horizontal") : 0;
 
         if (HVelocity != 0f)
         {
@@ -127,6 +128,7 @@ public class PlayerController : MonoBehaviour
 
     private void Climb()
     {
+        transform.position = new Vector3(RopeOffset.x+0.275f, transform.position.y, transform.position.z);
         RigidBody.velocity = new Vector2(RigidBody.velocity.x, ClimbSpeed);
     }
 
@@ -214,6 +216,30 @@ public class PlayerController : MonoBehaviour
 
         if (LeftHit1.collider != null || LeftHit2.collider != null || LeftHit3.collider != null || RightHit1.collider != null || RightHit2.collider != null || RightHit3.collider != null)
         {
+            if (LeftHit1.collider != null)
+            {
+                RopeOffset = LeftHit1.point;
+            }
+            else if (LeftHit2.collider != null)
+            {
+                RopeOffset = LeftHit2.point;
+            }
+            else if (LeftHit3.collider != null)
+            {
+                RopeOffset = LeftHit3.point;
+            }
+            else if (RightHit1.collider != null)
+            {
+                RopeOffset = RightHit1.point;
+            }
+            else if (RightHit2.collider != null)
+            {
+                RopeOffset = RightHit2.point;
+            }
+            else if (RightHit3.collider != null)
+            {
+                RopeOffset = RightHit3.point;
+            }
             return true;
         }
         else

@@ -20,4 +20,9 @@ public class VideoCollisionCheck : MonoBehaviour
     {
         videoController.StoppedHovering();
     }
+
+    private void OnMouseDown()
+    {
+        videoController.PressedVideo();
+    }
 }

@@ -16,6 +16,8 @@ public class VideoController : MonoBehaviour
     private GameObject PauseObject;
     [SerializeField]
     private Transform progressBar;
+    [SerializeField]
+    private GameObject progressBarBG;
 
     private bool CanPlay = false;
     private bool CanPause = false;
@@ -41,22 +43,6 @@ public class VideoController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && CanPlay)
-        {
-            videoPlayer.Play();
-            CanPlay = false;
-            CanPause = true;
-            videoPlayer.SetDirectAudioMute(0, false);
-            SetMediaButtons(true, false);
-        }
-        else if (Input.GetMouseButtonDown(0) && CanPause)
-        {
-            videoPlayer.Pause();
-            CanPlay = true;
-            CanPause = false;
-            SetMediaButtons(false, true);
-        }
-
         if (videoPlayer.isPlaying)
         {
             percentageFinished = (float)videoPlayer.time / (float)videoPlayer.length;
@@ -82,6 +68,7 @@ public class VideoController : MonoBehaviour
 
         SetMediaButtons(CheckPlaying, !CheckPlaying);
         progressBar.gameObject.SetActive(true);
+        progressBarBG.SetActive(true);
     }
 
     public void StoppedHovering()
@@ -91,6 +78,28 @@ public class VideoController : MonoBehaviour
         material.color = originalColour;
         SetMediaButtons(false, false);
         progressBar.gameObject.SetActive(false);
+        progressBarBG.SetActive(false);
+    }
+
+    public void PressedVideo()
+    {
+        if (CanPlay)
+        {
+            videoPlayer.Play();
+            CanPlay = false;
+            CanPause = true;
+            videoPlayer.SetDirectAudioMute(0, false);
+            SetMediaButtons(true, false);
+            progressBar.gameObject.SetActive(true);
+        }
+        else if (CanPause)
+        {
+            videoPlayer.Pause();
+            CanPlay = true;
+            CanPause = false;
+            SetMediaButtons(false, true);
+            progressBar.gameObject.SetActive(true);
+        }
     }
 
     void SetMediaButtons(bool btnCheck1, bool btnCheck2)
@@ -108,10 +117,5 @@ public class VideoController : MonoBehaviour
         videoPlayer.time = 0;
         progressBar.localPosition = new Vector3(StartingProgressBar.x, progressBar.localPosition.y, progressBar.localPosition.z);
         progressBar.localScale = new Vector3(StartingProgressBar.y, progressBar.localScale.y, progressBar.localScale.z);
-    }
-
-    void ShowProgressBar()
-    {
-        progressBar.gameObject.SetActive(progressBar.localScale.x <= 0.05 ? true : false);
     }
 }
