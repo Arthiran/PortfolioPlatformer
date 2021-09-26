@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -40,9 +40,11 @@ public class PlayerController : MonoBehaviour
 
     private bool lastDirection = false;
 
-    private Collider2D currentCollision;
+    private int CanWallJumpAgain = 0;
 
     private Vector3 RopeOffset;
+
+    public TextMeshProUGUI textMesh;
 
     void Start()
     {
@@ -93,7 +95,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Jumps if allowed
-        if (Input.GetButtonDown("Jump") && (CheckGrounded || (CheckOnWall && currentCollision == null)))
+        if (Input.GetButtonDown("Jump") && (CheckGrounded || (CheckOnWall && CanWallJumpAgain == 0)))
         {
             CanJump = true;
         }
@@ -124,6 +126,7 @@ public class PlayerController : MonoBehaviour
     {
         RigidBody.velocity = new Vector2(RigidBody.velocity.x, JumpFactor);
         CanJump = false;
+        CanWallJumpAgain = 1;
     }
 
     private void Climb()
@@ -167,38 +170,11 @@ public class PlayerController : MonoBehaviour
 
         if (LeftHit1.collider != null || LeftHit2.collider != null || LeftHit3.collider != null || RightHit1.collider != null || RightHit2.collider != null || RightHit3.collider != null)
         {
-            if (CanJump)
-            {
-                if (LeftHit1.collider != null)
-                {
-                    currentCollision = LeftHit1.collider;
-                }
-                else if (LeftHit2.collider != null)
-                {
-                    currentCollision = LeftHit2.collider;
-                }
-                else if (LeftHit3.collider != null)
-                {
-                    currentCollision = LeftHit3.collider;
-                }
-                else if (RightHit1.collider != null)
-                {
-                    currentCollision = RightHit1.collider;
-                }
-                else if (RightHit2.collider != null)
-                {
-                    currentCollision = RightHit2.collider;
-                }
-                else if (RightHit3.collider != null)
-                {
-                    currentCollision = RightHit3.collider;
-                }
-            }
             return true;
         }
         else
         {
-            currentCollision = null;
+            CanWallJumpAgain = 0;
             return false;
         }
     }

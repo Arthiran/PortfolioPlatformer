@@ -45,3 +45,9 @@ TagManager:
   - name: LampBowl
     uniqueID: 2872930681
     locked: 0
+  - name: UI
+    uniqueID: 1035946033
+    locked: 0
+  - name: Player
+    uniqueID: 3998945737
+    locked: 0
