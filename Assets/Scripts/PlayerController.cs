@@ -44,8 +44,6 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 RopeOffset;
 
-    public TextMeshProUGUI textMesh;
-
     void Start()
     {
         Sprites = GetComponent<SpriteRenderer>();
