@@ -11,6 +11,8 @@ public class VideoController : MonoBehaviour
     private Color DarkColour = new Color(0.8f, 0.8f, 0.8f);
 
     [SerializeField]
+    private GameObject EntryPlayObject;
+    [SerializeField]
     private GameObject PlayObject;
     [SerializeField]
     private GameObject PauseObject;
@@ -51,11 +53,7 @@ public class VideoController : MonoBehaviour
 
             progressBar.localPosition = new Vector3(value1, progressBar.localPosition.y, progressBar.localPosition.z);
             progressBar.localScale = new Vector3(value2, progressBar.localScale.y, progressBar.localScale.z);
-        }
-        else
-        {
-            SetMediaButtons(false, true);
-        }    
+        } 
     }
 
     public void HoveringVideo()
@@ -85,6 +83,7 @@ public class VideoController : MonoBehaviour
     {
         if (CanPlay)
         {
+            EntryPlayObject.SetActive(false);
             videoPlayer.Play();
             CanPlay = false;
             CanPause = true;

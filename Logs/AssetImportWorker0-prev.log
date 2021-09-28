@@ -15,11 +15,11 @@ C:/Users/arthi/Documents/UnityProjects/PortfolioPlatformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1064
+19783
 Successfully changed project path to: C:/Users/arthi/Documents/UnityProjects/PortfolioPlatformer
 C:/Users/arthi/Documents/UnityProjects/PortfolioPlatformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 108.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 109.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -30,773 +30,161 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   NVIDIA
     VRAM:     5991 MB
-    Driver:   30.0.14.7196
+    Driver:   30.0.14.7212
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002174 seconds.
+Registered in 0.001901 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 115.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 98.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.112 seconds
+- Completed reload, in  1.653 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003011 seconds.
+Registered in 0.002503 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 123.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.366 seconds
+- Completed reload, in  1.008 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.5 MB.
-System memory in use after: 174.6 MB.
+System memory in use before: 174.7 MB.
+System memory in use after: 174.7 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 4960.
-Total: 3.084300 ms (FindLiveObjects: 0.358100 ms CreateObjectMapping: 0.278200 ms MarkObjects: 2.317400 ms  DeleteObjects: 0.129400 ms)
+Total: 2.505400 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.207400 ms MarkObjects: 1.892500 ms  DeleteObjects: 0.108700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(7f2ee5e114a6f024f9b3d9408a0b29f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(7f2ee5e114a6f024f9b3d9408a0b29f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99fae476b5823968214766f2af8e273') in 0.035559 seconds 
+  path: Assets/VideoObjects/Prefabs/Video.prefab
+  artifactKey: Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoObjects/Prefabs/Video.prefab using Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648f25e87c42725282a0437c88e51587') in 0.277525 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.768757 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(7f2ee5e114a6f024f9b3d9408a0b29f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(7f2ee5e114a6f024f9b3d9408a0b29f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7756c9b1cc8f2c29549c1b002bafdf78') in 0.005310 seconds 
+  Time since last request: 10.429598 seconds.
+  path: Assets/VideoObjects/Prefabs/Video.prefab
+  artifactKey: Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoObjects/Prefabs/Video.prefab using Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d775b67347217fbd2e82893efad2e8e') in 0.029259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.618915 seconds.
+  path: Assets/VideoObjects/Prefabs/Video.prefab
+  artifactKey: Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoObjects/Prefabs/Video.prefab using Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b7f933d4d5e9eb62cb3576eb00f58d') in 0.030911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.746583 seconds.
+  path: Assets/VideoObjects/Prefabs/Video.prefab
+  artifactKey: Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoObjects/Prefabs/Video.prefab using Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca68686ff6d7d186f91afd76e806ef7f') in 0.028757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.164039 seconds.
+  path: Assets/VideoObjects/Prefabs/Video.prefab
+  artifactKey: Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoObjects/Prefabs/Video.prefab using Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd312c2d3e785edb517b892f370d8d6') in 0.028470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.985895 seconds.
+  path: Assets/VideoObjects/Prefabs/Video.prefab
+  artifactKey: Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoObjects/Prefabs/Video.prefab using Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b277e31564e9d8cd67ef84adbe6d0b23') in 0.028354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.584544 seconds.
+  path: Assets/VideoObjects/Prefabs/Video.prefab
+  artifactKey: Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoObjects/Prefabs/Video.prefab using Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be118b60b3f90f4209a0a4865f804b46') in 0.027670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.033714 seconds.
+  path: Assets/VideoObjects/Prefabs/Video.prefab
+  artifactKey: Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoObjects/Prefabs/Video.prefab using Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b93858c2a20042d821558d8fa531af3') in 0.027435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.187761 seconds.
+  path: Assets/VideoObjects/Prefabs/Video.prefab
+  artifactKey: Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoObjects/Prefabs/Video.prefab using Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677f691deac34d52b87dfea219da8390') in 0.030245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.083824 seconds.
+  path: Assets/Scripts/HyperlinkButton.cs
+  artifactKey: Guid(2a55aeff378a9aa4bafb24b42698d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HyperlinkButton.cs using Guid(2a55aeff378a9aa4bafb24b42698d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8f0aadce2a2b8e3ec9c3a62e04fa28') in 0.013501 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003038 seconds.
+Registered in 0.002779 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
+- Completed reload, in  3.980 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.6 MB.
-System memory in use after: 167.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4964.
-Total: 2.375900 ms (FindLiveObjects: 0.274900 ms CreateObjectMapping: 0.185000 ms MarkObjects: 1.784600 ms  DeleteObjects: 0.130400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 137.741671 seconds.
-  path: Assets/Prefabs/DoubleLamp.prefab
-  artifactKey: Guid(b9b3282315c448b4db43930bdf2ed4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DoubleLamp.prefab using Guid(b9b3282315c448b4db43930bdf2ed4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7060c68360c50c3f4c092c81b16c11e1') in 0.199769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Prefabs/TripleLamp.prefab
-  artifactKey: Guid(8e0a419fd0fab0740bdadca112580310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TripleLamp.prefab using Guid(8e0a419fd0fab0740bdadca112580310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b930dfb9686c577383f1a3d08ebdd30d') in 0.015515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Prefabs/QuadrupleLamp.prefab
-  artifactKey: Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuadrupleLamp.prefab using Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4d40cb0d3510de0225da7a9fac2466') in 0.015764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Prefabs/SingleLamp.prefab
-  artifactKey: Guid(aa6af95cffcd1ce4db7e7a4109e40d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SingleLamp.prefab using Guid(aa6af95cffcd1ce4db7e7a4109e40d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48d9dcb7f51ac3ebba329f22b390a03') in 0.019091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.018964 seconds.
-  path: Assets/Prefabs/DoubleLamp.prefab
-  artifactKey: Guid(b9b3282315c448b4db43930bdf2ed4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DoubleLamp.prefab using Guid(b9b3282315c448b4db43930bdf2ed4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13624aef50f26c075a46f37337f9b0da') in 0.010163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Prefabs/TripleLamp.prefab
-  artifactKey: Guid(8e0a419fd0fab0740bdadca112580310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TripleLamp.prefab using Guid(8e0a419fd0fab0740bdadca112580310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd7305669cc287cf4b2543f90dac275') in 0.009910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefabs/QuadrupleLamp.prefab
-  artifactKey: Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuadrupleLamp.prefab using Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f12a5cf0ae0103fb63872124bc65fa') in 0.010916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Prefabs/SingleLamp.prefab
-  artifactKey: Guid(aa6af95cffcd1ce4db7e7a4109e40d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SingleLamp.prefab using Guid(aa6af95cffcd1ce4db7e7a4109e40d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6b8ade3c55ff1f6cbb0094297af19a') in 0.007576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.962645 seconds.
-  path: Assets/Prefabs/QuadrupleLamp.prefab
-  artifactKey: Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuadrupleLamp.prefab using Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca61522c577f458d72d3ccb2acc94a61') in 0.024500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.586575 seconds.
-  path: Assets/Prefabs/QuadrupleLamp.prefab
-  artifactKey: Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuadrupleLamp.prefab using Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df6cc0e1adbda6636251e14227e201f') in 0.009685 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003257 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.139 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.0 MB.
-System memory in use after: 174.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5015.
-Total: 3.715300 ms (FindLiveObjects: 0.556300 ms CreateObjectMapping: 0.399800 ms MarkObjects: 2.648200 ms  DeleteObjects: 0.109600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003460 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.933 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.0 MB.
-System memory in use after: 174.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5019.
-Total: 2.608500 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.192000 ms MarkObjects: 2.038600 ms  DeleteObjects: 0.086000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002508 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.0 MB.
-System memory in use after: 174.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5023.
-Total: 3.472500 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.166100 ms MarkObjects: 2.855600 ms  DeleteObjects: 0.183400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2075.975554 seconds.
-  path: Assets/GameArt/Lamps
-  artifactKey: Guid(06f4ea1075ad81a48b95e65790e5b1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/Lamps using Guid(06f4ea1075ad81a48b95e65790e5b1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2528e4502157f630d7e4c60372eeb414') in 0.012359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.147028 seconds.
-  path: Assets/GameArt/Lamps/FloorLamp.png
-  artifactKey: Guid(727707131848b3f49ac8e78dac421090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/Lamps/FloorLamp.png using Guid(727707131848b3f49ac8e78dac421090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d220af46ef809ae09e1829a6277244e') in 0.098681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.136184 seconds.
-  path: Assets/GameArt/Lamps/FloorLamp.png
-  artifactKey: Guid(727707131848b3f49ac8e78dac421090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/Lamps/FloorLamp.png using Guid(727707131848b3f49ac8e78dac421090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e28057c9574c4958e0ad069a8363c1c') in 0.016898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.892633 seconds.
-  path: Assets/Prefabs/FloorLamp.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLamp.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcad0ca80531a4a158206d194e8f088') in 0.111289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.807240 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d62ecfd5fa814cf1faa769ec2036ce') in 0.011797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.566944 seconds.
-  path: Assets/Prefabs/FloorLamp Variant.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLamp Variant.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49efa1f3fcb55f58c7bc6250dbcfa01') in 0.013270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.067861 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f490e65af379f41dedc0fe785b6bd93') in 0.011734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.272727 seconds.
-  path: Assets/Prefabs/FloorLamp Variant.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLamp Variant.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6532da65bfdfb7637b6218d6ea8dd3') in 0.011040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.916418 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb5cd60ba365c95eff763b8ecf58c75') in 0.011726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.628044 seconds.
-  path: Assets/Prefabs/FloorLamp Variant.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLamp Variant.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e32086c812eab9c4d47c41c60bccf20') in 0.012435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.231389 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfc8e94de6dfb06bacc2b7452c76630') in 0.014062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.993737 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed56ace2bb4afb316bee76efec0660c') in 0.012506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a829fa7476ec8bcc9ac721fba69403b6') in 0.009892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c415bcfb7dacc041a9ca7224e424f0') in 0.008297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f380b7a4a659951e4d6713bde6f5704e') in 0.008030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.798151 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1cd682a388adf7aafe54877858b9ca') in 0.008429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e183680daea44090344029c3d33588af') in 0.008456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf59a8412782ba099d042e3f97fc144') in 0.009550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c372731250b404c03324203b8fb3b13e') in 0.008060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.614221 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845e944edcfd1276d14c299164f55b0d') in 0.008497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29a96ef97f8617c6cd5649c5baf4ce4') in 0.008950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d21e04f7d8ebb3c0d6cdadecb74c9f') in 0.008360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f154244944e6dcebdfb940440c2b1f') in 0.008338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.101635 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0bddcc00f517ec4130e8d170126051') in 0.015462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc7c10bc36361ebf08e9c31b4e82be4') in 0.010865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bb84ecab6d29abff18981049bc7ec8') in 0.019341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437f101b0107c546d9dc6144da7c1ca8') in 0.023502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.751436 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be51520f87af00f3c8dd857de148d139') in 0.010203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48af9c55251ff0cbca73031d2332654') in 0.011294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1c9f2e92b2b059ce5b37d5dc043a19') in 0.010507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec54ef02323157f63ff33e386fcb0e2c') in 0.009429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.061577 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e3825427c29d9aa986923b1abb1490') in 0.013180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a81300c55023010471e46db31b87a6') in 0.009851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc344f1bb7549edb5fb8140b39ad5eb') in 0.012453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48ba71411f0297e0e0ec6ba9428a47b') in 0.010137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.722413 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cdad32b8fa00564486215d0d504b4d') in 0.007942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fea63eae8398adee5e8ee398fbd69b') in 0.009227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051c9eff8f5832887db3fab036caf361') in 0.009553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.194574 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430c584ad12123aab14a3935b2526487') in 0.011063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b16c4655adade561580d64fbf98e01') in 0.011525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e78f0f9c01899eaca8d6ac55ca85b9') in 0.012601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 131.387847 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d9fbe9f442839f74755a5a8efe368c') in 0.010913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.894999 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ba847fb75288e3101325dfe5e39a0b') in 0.012728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.603069 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fa26ae8625ee0e646be7e2a155c256') in 0.008169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.637052 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13bbf2324764e6593f25c0d82f09c20') in 0.016073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a25c8527d74626ac4907e8b89fe092') in 0.009715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.374061 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e6bc15ecd88ca80718122133b0ba77') in 0.016454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44129e1d84d8fe65d3560e5d331b5edc') in 0.012664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.047316 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64aa022b80c66d50d4a3a89ad5a7744') in 0.009491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.714154 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7454c6c57a117664578d0c0afb94276a') in 0.010804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e904677c3914dbfad0ed943aa1b2ac7') in 0.010147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.803306 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac29ceb55eb4c54ed777f32e6b418bd') in 0.012317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6555b33dd58f2933e61a6ba494fe2f14') in 0.011706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e78f0f9c01899eaca8d6ac55ca85b9') in 0.008345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 104.640296 seconds.
-  path: Assets/Prefabs/VideoLights.prefab
-  artifactKey: Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VideoLights.prefab using Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867bb56ada8e7d44771945cb7508f99f') in 0.013762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.154598 seconds.
-  path: Assets/Prefabs/VideoFloorLamps.prefab
-  artifactKey: Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VideoFloorLamps.prefab using Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f320ea63690f15277e58246dcde8d2') in 0.026936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 491.630362 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cfda66f2609552f08a05598e42c433') in 0.011997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Prefabs/VideoFloorLamps.prefab
-  artifactKey: Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VideoFloorLamps.prefab using Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22f8a793bcf95f854d564273aee6887') in 0.010073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19457554b4c8288f516eaad79447dc02') in 0.011135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bb1f31dbb4657f2a416b8d29146a34') in 0.016217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb62a67b0f62543a2660676523748b69') in 0.009789 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003008 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.1 MB.
-System memory in use after: 175.2 MB.
+System memory in use before: 174.2 MB.
+System memory in use after: 174.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5097.
-Total: 2.914900 ms (FindLiveObjects: 0.345800 ms CreateObjectMapping: 0.261500 ms MarkObjects: 2.217400 ms  DeleteObjects: 0.089500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5013.
+Total: 2.815300 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.234400 ms MarkObjects: 2.141400 ms  DeleteObjects: 0.096700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002996 seconds.
+Registered in 0.003283 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
+- Completed reload, in  1.468 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.0 MB.
-System memory in use after: 175.1 MB.
+Unloading 4422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.2 MB.
+System memory in use after: 174.4 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5101.
-Total: 3.352500 ms (FindLiveObjects: 0.517500 ms CreateObjectMapping: 0.362900 ms MarkObjects: 2.371700 ms  DeleteObjects: 0.099500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.405320 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95163065c9c7afaf046816549b640070') in 0.144300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Prefabs/VideoFloorLamps.prefab
-  artifactKey: Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VideoFloorLamps.prefab using Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27a0f59347ab1bd5418d0ffd028b7a6') in 0.012251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86acfe3ffb76dd40abcdaca25432200b') in 0.009795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45131a0b21ae7a8d8d25816a95b03e0c') in 0.011047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8be08a05a9c4d3760df25434612f40e') in 0.012325 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004587 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.1 MB.
-System memory in use after: 175.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5143.
-Total: 3.446000 ms (FindLiveObjects: 0.467300 ms CreateObjectMapping: 0.401100 ms MarkObjects: 2.477900 ms  DeleteObjects: 0.098600 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5017.
+Total: 4.168600 ms (FindLiveObjects: 0.783600 ms CreateObjectMapping: 0.383400 ms MarkObjects: 2.893300 ms  DeleteObjects: 0.106900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002504 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.1 MB.
-System memory in use after: 175.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5147.
-Total: 2.572100 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.200100 ms MarkObjects: 1.959500 ms  DeleteObjects: 0.120300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 303.077833 seconds.
-  path: Assets/Prefabs/VideoFloorLamps.prefab
-  artifactKey: Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VideoFloorLamps.prefab using Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f10c1725b5b6023e9bfd7df2830ab8f') in 0.132613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f57bbf1d41a7c8f3833d94055b7677c') in 0.011006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3871fd0247648e24d27e85e5f2a127') in 0.012295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83b328c3dc5b2c52600e75a60582f96') in 0.012476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a9577d7196d29ae53d213c0e75cc13') in 0.007781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.137188 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb315616a92c9f1c250676c1f29efa1') in 0.008103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Prefabs/VideoFloorLamps.prefab
-  artifactKey: Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VideoFloorLamps.prefab using Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6052afc20333d2dd960882373481a6e2') in 0.008422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80504519a5c1edcf3466161635a2c941') in 0.008635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ef69b528bebab6160a51b79888b8b6') in 0.007612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c38cd48feb6b029b22718e937463af') in 0.007497 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002715 seconds.
+Registered in 0.002699 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -805,766 +193,124 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
+- Completed reload, in  1.007 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.2 MB.
-System memory in use after: 175.3 MB.
+Unloading 4422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.2 MB.
+System memory in use after: 174.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5189.
-Total: 2.672900 ms (FindLiveObjects: 0.310200 ms CreateObjectMapping: 0.204200 ms MarkObjects: 2.066800 ms  DeleteObjects: 0.090900 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5021.
+Total: 3.165500 ms (FindLiveObjects: 0.413200 ms CreateObjectMapping: 0.211200 ms MarkObjects: 2.395600 ms  DeleteObjects: 0.144700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.899338 seconds.
-  path: Assets/Prefabs/VideoFloorLamps.prefab
-  artifactKey: Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VideoFloorLamps.prefab using Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff67b8a47dcac3ef899fbca642e1838a') in 0.128978 seconds 
+  Time since last request: 227.687283 seconds.
+  path: Assets/VideoObjects/Prefabs/Video.prefab
+  artifactKey: Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoObjects/Prefabs/Video.prefab using Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896400b084d943773722500877a2a255') in 0.194222 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b03c29c9a9f6f68ed6ab6fbb8295f3') in 0.010791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bb1efdeb207be72068c5d5c294dcfe') in 0.010418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d26cbd1e97cce5f664fb19209a100d5') in 0.016323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e0a49bef5dbe524849bf3ae2abdf5d') in 0.010110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.046065 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba15c762b3ebd7af90cd85c8c403d8a9') in 0.007750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Prefabs/VideoFloorLamps.prefab
-  artifactKey: Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VideoFloorLamps.prefab using Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551bcc60a7d297fd6f17088fc4864b20') in 0.008289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648433a4271a8200bf9171ce25afcdca') in 0.008750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3f2b3eeee8d803f3337c301e36e49e') in 0.009070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e265b14fcb63d2a4ad3e80b77ebbd6') in 0.009095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.909293 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077a82e0a6be830b18fbcc483d8fa742') in 0.008221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Prefabs/VideoFloorLamps.prefab
-  artifactKey: Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VideoFloorLamps.prefab using Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1f3ad21476a4b3ef1786bff04f4281') in 0.008048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce9517cca3ab214e8e29828e06b9230') in 0.009239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e461359ae3ffdebc63e471744d19b0') in 0.009045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35c505b8e37683930c624cc4e71c4b1') in 0.009266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.871968 seconds.
-  path: Assets/Prefabs/FloorLampDownLeft.prefab
-  artifactKey: Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownLeft.prefab using Guid(9ae9a73f4d9947e498fa444d985280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937040e157da7343a7615550ee007c72') in 0.009861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Prefabs/VideoFloorLamps.prefab
-  artifactKey: Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VideoFloorLamps.prefab using Guid(fd06e5f65c30a424f9944cedb1370a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fd6d42f5cdfe83610b91641bfa0af5') in 0.009048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Prefabs/FloorLampDownRight.prefab
-  artifactKey: Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampDownRight.prefab using Guid(56860d559e1d9574dabb08ee1428be95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6be5208bc93d3c33618688b0f024cb') in 0.010974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Prefabs/FloorLampRight.prefab
-  artifactKey: Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampRight.prefab using Guid(aee5f48375e3832469ea85fd52334f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d7144bf8ee6c2482d470e965647457') in 0.010592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Prefabs/FloorLampLeft.prefab
-  artifactKey: Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloorLampLeft.prefab using Guid(b9af937fdd67215489f7fb01bcbbc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7b08cdcf9321f9418660fb45c6c19a') in 0.008100 seconds 
+  Time since last request: 52.769357 seconds.
+  path: Assets/VideoObjects/Prefabs/Video.prefab
+  artifactKey: Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VideoObjects/Prefabs/Video.prefab using Guid(f49b6b653a0fec943ba9340273f1a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac12dc8c508a2a64b1efa47d26e24454') in 0.030722 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002742 seconds.
+Registered in 0.002588 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.926 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.2 MB.
-System memory in use after: 175.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5231.
-Total: 2.614600 ms (FindLiveObjects: 0.292100 ms CreateObjectMapping: 0.184300 ms MarkObjects: 2.055200 ms  DeleteObjects: 0.082300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 250.793957 seconds.
-  path: Assets/Prefabs/DoubleLamp.prefab
-  artifactKey: Guid(b9b3282315c448b4db43930bdf2ed4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DoubleLamp.prefab using Guid(b9b3282315c448b4db43930bdf2ed4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75ab700805ab2e59d0f8b0594d48ff0') in 0.141121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Prefabs/TripleLamp.prefab
-  artifactKey: Guid(8e0a419fd0fab0740bdadca112580310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TripleLamp.prefab using Guid(8e0a419fd0fab0740bdadca112580310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705094798d1a479f1f7ba22a77ac611e') in 0.010383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Prefabs/QuadrupleLamp.prefab
-  artifactKey: Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuadrupleLamp.prefab using Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5334ff4c6a5eded893de114644870394') in 0.014528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Prefabs/SingleLamp.prefab
-  artifactKey: Guid(aa6af95cffcd1ce4db7e7a4109e40d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SingleLamp.prefab using Guid(aa6af95cffcd1ce4db7e7a4109e40d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82b225197523744d7bc3d49584ef2ac') in 0.011632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.094786 seconds.
-  path: Assets/Prefabs/DoubleLamp.prefab
-  artifactKey: Guid(b9b3282315c448b4db43930bdf2ed4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DoubleLamp.prefab using Guid(b9b3282315c448b4db43930bdf2ed4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2068c4666abe5aca94cf88485253097') in 0.009278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Prefabs/TripleLamp.prefab
-  artifactKey: Guid(8e0a419fd0fab0740bdadca112580310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TripleLamp.prefab using Guid(8e0a419fd0fab0740bdadca112580310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0e2392cadb620a6872a0f7e63e61ef') in 0.009235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Prefabs/QuadrupleLamp.prefab
-  artifactKey: Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuadrupleLamp.prefab using Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1f7796b6cd8aa1f264f70739b6fba2') in 0.010086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Prefabs/SingleLamp.prefab
-  artifactKey: Guid(aa6af95cffcd1ce4db7e7a4109e40d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SingleLamp.prefab using Guid(aa6af95cffcd1ce4db7e7a4109e40d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad234656169dd3064eff0be0e8e600c') in 0.008176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.527503 seconds.
-  path: Assets/Prefabs/DoubleLamp.prefab
-  artifactKey: Guid(b9b3282315c448b4db43930bdf2ed4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DoubleLamp.prefab using Guid(b9b3282315c448b4db43930bdf2ed4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69939bbc20c6f46f40e8c6845ee8efba') in 0.010753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Prefabs/TripleLamp.prefab
-  artifactKey: Guid(8e0a419fd0fab0740bdadca112580310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TripleLamp.prefab using Guid(8e0a419fd0fab0740bdadca112580310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586f85057910f2489d544fea4cc4ce05') in 0.015058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Prefabs/QuadrupleLamp.prefab
-  artifactKey: Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuadrupleLamp.prefab using Guid(cf4fd108792d09648bfdd699bf30e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ccfc39110bf9a5b506fbf23cb406d3') in 0.010256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Prefabs/SingleLamp.prefab
-  artifactKey: Guid(aa6af95cffcd1ce4db7e7a4109e40d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SingleLamp.prefab using Guid(aa6af95cffcd1ce4db7e7a4109e40d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e87c9b0b1f18f508d186eed211f51b2') in 0.008097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 155.619616 seconds.
-  path: Assets/Prefabs/QuadrupleLamp Variant.prefab
-  artifactKey: Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuadrupleLamp Variant.prefab using Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11491daa9757a13c5c1983a1049bbe5') in 0.016583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.571325 seconds.
-  path: Assets/Prefabs/Quintuple.prefab
-  artifactKey: Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Quintuple.prefab using Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a125a5de20a52ef0e31c82d625f025cd') in 0.012973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.428446 seconds.
-  path: Assets/Prefabs/QuintupleLamp.prefab
-  artifactKey: Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuintupleLamp.prefab using Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9097b2ed7074b3dc491703b53124c66') in 0.013900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.850918 seconds.
-  path: Assets/Prefabs/QuintupleLamp.prefab
-  artifactKey: Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuintupleLamp.prefab using Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1edc9b280f31816cb2b17263a63387') in 0.012818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.378177 seconds.
-  path: Assets/Prefabs/QuintupleLamp.prefab
-  artifactKey: Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuintupleLamp.prefab using Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a3b6b2745d06eb5794db23cc857be7') in 0.013380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.397206 seconds.
-  path: Assets/Prefabs/QuintupleLamp.prefab
-  artifactKey: Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuintupleLamp.prefab using Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6097eeb4bd8f064d1fe1a03231502e96') in 0.013620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.795640 seconds.
-  path: Assets/Prefabs/QuintupleLamp.prefab
-  artifactKey: Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuintupleLamp.prefab using Guid(f8fe4ba92a131004d93b7c5771f9bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc60f372fc04d0cde95b0ee238833ab') in 0.011148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.800553 seconds.
-  path: Assets/Prefabs/QuintupleLamp Variant.prefab
-  artifactKey: Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/QuintupleLamp Variant.prefab using Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6018d845348728ef8a09ec4bf9dcac05') in 0.016780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.148899 seconds.
-  path: Assets/Prefabs/SextupleLamp.prefab
-  artifactKey: Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SextupleLamp.prefab using Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d0c24137389825570658a332259b95') in 0.024610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.590427 seconds.
-  path: Assets/Prefabs/SextupleLamp.prefab
-  artifactKey: Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SextupleLamp.prefab using Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02972de4d71a5a5585ecf2f54d5715b9') in 0.013587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.559197 seconds.
-  path: Assets/Prefabs/SextupleLamp.prefab
-  artifactKey: Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SextupleLamp.prefab using Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d8ff1c0d8aaa05e3dc073bf753fd85') in 0.011645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.210585 seconds.
-  path: Assets/Prefabs/SextupleLamp.prefab
-  artifactKey: Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SextupleLamp.prefab using Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af0e15b711a36087485c36ddaca0def') in 0.013623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.474553 seconds.
-  path: Assets/Prefabs/SextupleLamp.prefab
-  artifactKey: Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SextupleLamp.prefab using Guid(7e28e9bd9b8193d4bb9cdb1e45d69473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a46da531833ce397b5584bab7ae240') in 0.030043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 97.718969 seconds.
-  path: Assets/Prefabs/LongQuadrupleLamp Variant.prefab
-  artifactKey: Guid(f9477d003443bf54cbc8dd08424a4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LongQuadrupleLamp Variant.prefab using Guid(f9477d003443bf54cbc8dd08424a4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd1bb9fd7b163ebddb0fadc81fdd112') in 0.014806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.755942 seconds.
-  path: Assets/Prefabs/LongQuadrupleLamp Variant.prefab
-  artifactKey: Guid(f9477d003443bf54cbc8dd08424a4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LongQuadrupleLamp Variant.prefab using Guid(f9477d003443bf54cbc8dd08424a4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e0c969a80eb28fc58d9bbaeb9b7282') in 0.010458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.226290 seconds.
-  path: Assets/Prefabs/LongQuadrupleLamp Variant.prefab
-  artifactKey: Guid(f9477d003443bf54cbc8dd08424a4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LongQuadrupleLamp Variant.prefab using Guid(f9477d003443bf54cbc8dd08424a4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef04f2b56f5dcbe24a460a53eec21009') in 0.013102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.634415 seconds.
-  path: Assets/Prefabs/LongQuadrupleLamp Variant.prefab
-  artifactKey: Guid(f9477d003443bf54cbc8dd08424a4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LongQuadrupleLamp Variant.prefab using Guid(f9477d003443bf54cbc8dd08424a4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c3762daccda4de26ec18f38d661b87') in 0.011564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.522911 seconds.
-  path: Assets/Prefabs/LongQuadrupleLamp.prefab
-  artifactKey: Guid(f9477d003443bf54cbc8dd08424a4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LongQuadrupleLamp.prefab using Guid(f9477d003443bf54cbc8dd08424a4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d52a1d018b14c2202975611719329e6') in 0.014642 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003205 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
+- Completed reload, in  0.993 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.4 MB.
-System memory in use after: 175.5 MB.
+Unloading 4422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5273.
-Total: 3.012800 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.185100 ms MarkObjects: 2.388600 ms  DeleteObjects: 0.095300 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5063.
+Total: 2.529800 ms (FindLiveObjects: 0.285600 ms CreateObjectMapping: 0.190600 ms MarkObjects: 1.970800 ms  DeleteObjects: 0.082200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002871 seconds.
+Registered in 0.003148 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.964 seconds
+- Completed reload, in  1.284 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.4 MB.
-System memory in use after: 175.5 MB.
+Unloading 4422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5277.
-Total: 3.748900 ms (FindLiveObjects: 0.487900 ms CreateObjectMapping: 0.394900 ms MarkObjects: 2.701800 ms  DeleteObjects: 0.163100 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5067.
+Total: 3.494600 ms (FindLiveObjects: 0.349300 ms CreateObjectMapping: 0.310500 ms MarkObjects: 2.728700 ms  DeleteObjects: 0.105000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002385 seconds.
+Registered in 0.002856 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.973 seconds
+- Completed reload, in  1.081 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.3 MB.
-System memory in use after: 175.4 MB.
+Unloading 4422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.4 MB.
+System memory in use after: 174.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5281.
-Total: 2.959800 ms (FindLiveObjects: 0.302600 ms CreateObjectMapping: 0.181300 ms MarkObjects: 2.324800 ms  DeleteObjects: 0.149800 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5071.
+Total: 3.147500 ms (FindLiveObjects: 0.328600 ms CreateObjectMapping: 0.196800 ms MarkObjects: 2.535900 ms  DeleteObjects: 0.085500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003974 seconds.
+Registered in 0.003471 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.120 seconds
+- Completed reload, in  1.293 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.3 MB.
-System memory in use after: 175.4 MB.
+Unloading 4422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.4 MB.
+System memory in use after: 174.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5285.
-Total: 3.870300 ms (FindLiveObjects: 0.385200 ms CreateObjectMapping: 0.363200 ms MarkObjects: 3.016600 ms  DeleteObjects: 0.104300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002838 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.3 MB.
-System memory in use after: 175.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5289.
-Total: 2.686900 ms (FindLiveObjects: 0.315700 ms CreateObjectMapping: 0.197100 ms MarkObjects: 2.071700 ms  DeleteObjects: 0.088500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003041 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.016 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.3 MB.
-System memory in use after: 175.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5293.
-Total: 3.139400 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.229100 ms MarkObjects: 2.448200 ms  DeleteObjects: 0.094300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 902.403373 seconds.
-  path: Assets/GameArt/TileMap/TempTile.asset
-  artifactKey: Guid(0e2643d16b1ebb34ebcf5669b2b8bf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile.asset using Guid(0e2643d16b1ebb34ebcf5669b2b8bf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b182234ddc6be352fb2b10b4de2bb0') in 0.046634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/GameArt/TileMap/TempTile5.png
-  artifactKey: Guid(374c5d5bc404ff747957a5d29e1ae7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile5.png using Guid(374c5d5bc404ff747957a5d29e1ae7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881376e0f717f23ebbdade5602d1aeae') in 0.032201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/GameArt/TileMap/TempTile3.asset
-  artifactKey: Guid(e704c0b3949514448b2ae92abd950126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile3.asset using Guid(e704c0b3949514448b2ae92abd950126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24602fe3711def263f723ac4ccd548d') in 0.010271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/GameArt/TileMap/TempTile9.png
-  artifactKey: Guid(6ed9ec9eb856d4d4b9db9dbb2b845f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile9.png using Guid(6ed9ec9eb856d4d4b9db9dbb2b845f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd50b2574a5e8a55520369f188d8ed84') in 0.015610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/GameArt/TileMap/Wall.png
-  artifactKey: Guid(6b7b80ba4f147c247baeba5a252d5f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/Wall.png using Guid(6b7b80ba4f147c247baeba5a252d5f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6494e4ccbcf54a870c284356a73a721') in 0.016089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/GameArt/TileMap/TempTile8.asset
-  artifactKey: Guid(a1f5074851e2a1648996ea675b353bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile8.asset using Guid(a1f5074851e2a1648996ea675b353bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb8c9536f69644dd98abdf216b89ca7') in 0.039620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/GameArt/TileMap/TempTile9.asset
-  artifactKey: Guid(8fb81240cbe02c645b35371c5490048a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile9.asset using Guid(8fb81240cbe02c645b35371c5490048a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0773b48da4e18ed1b2b41089db10d595') in 0.044833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/GameArt/TileMap/TempTile5.asset
-  artifactKey: Guid(e4b6c47c3f261c144af7260a288db775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile5.asset using Guid(e4b6c47c3f261c144af7260a288db775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa24bd53c753ce90b6daaeda91fe6d2') in 0.031287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/GameArt/TileMap/TempTile4.png
-  artifactKey: Guid(016f5dd06cf5b9c468d3639e03e56b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile4.png using Guid(016f5dd06cf5b9c468d3639e03e56b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d47b982fe82892f158e6f16a2ef017') in 0.045723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/GameArt/TileMap/TempTile6.png
-  artifactKey: Guid(a0d4f996513c1a743be514efd95f56b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile6.png using Guid(a0d4f996513c1a743be514efd95f56b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd715d04e336441e19b31f3955b65ab5') in 0.024873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/GameArt/TileMap/TempTile2.png
-  artifactKey: Guid(61f575026f94dcf4c8a5c093cc59f5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile2.png using Guid(61f575026f94dcf4c8a5c093cc59f5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaa4b24586b51c8d3aab5a6a408362c') in 0.022768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/GameArt/TileMap/TempTile4.asset
-  artifactKey: Guid(12a13a64c7e98474cadfde476c7d663b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile4.asset using Guid(12a13a64c7e98474cadfde476c7d663b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac6eaae347d085f3413477c7a8a7abc') in 0.008396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/GameArt/TileMap/TempTile6.asset
-  artifactKey: Guid(0a864c0c674e311468b1868ec591f8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile6.asset using Guid(0a864c0c674e311468b1868ec591f8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b270dfec6f939ff5af5086a10e7079c7') in 0.007859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/GameArt/TileMap/TempTile8.png
-  artifactKey: Guid(1af3fff932a55984482c6cc6268743a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile8.png using Guid(1af3fff932a55984482c6cc6268743a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e62b296e1fba67ffa8b13a2b50c031c') in 0.013038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/GameArt/TileMap/TempTile11.png
-  artifactKey: Guid(a781a87818260254698e4e207d217b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile11.png using Guid(a781a87818260254698e4e207d217b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db27b34484e43e1099baebfc7bd3d2c') in 0.013765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/GameArt/TileMap/TempTile12.asset
-  artifactKey: Guid(2a60200ab65dd0344bac11a52e5c6733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile12.asset using Guid(2a60200ab65dd0344bac11a52e5c6733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670772e8f5a7ad27eb212dc75772a688') in 0.010053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/GameArt/TileMap/Wall.asset
-  artifactKey: Guid(c80569fc9e5978946a57efa301a27025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/Wall.asset using Guid(c80569fc9e5978946a57efa301a27025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027f75e680247f97922a602b1d287547') in 0.018198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/GameArt/TileMap/TempTile12.png
-  artifactKey: Guid(ccc6ac9b1c9533a419b5f126a54d2ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile12.png using Guid(ccc6ac9b1c9533a419b5f126a54d2ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d38867ac36a35e5e461a53b2d3e0538') in 0.011733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/GameArt/TileMap/TempTile.prefab
-  artifactKey: Guid(b42f30770a264e24a8dc7a649878c8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile.prefab using Guid(b42f30770a264e24a8dc7a649878c8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f943eca847cc2cec817851292bc177') in 0.009531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/GameArt/TileMap/TempTile11.asset
-  artifactKey: Guid(8982e5b3799954c488504a3282f1a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile11.asset using Guid(8982e5b3799954c488504a3282f1a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dd3f0618ce883313985ebeb49d9d14') in 0.008118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/GameArt/TileMap/TempTile.png
-  artifactKey: Guid(a9f84b5af9663f64d8cb55340ffb4bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile.png using Guid(a9f84b5af9663f64d8cb55340ffb4bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae599ff7aee03c045813b3a145c5fe83') in 0.011879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/GameArt/TileMap/TempTile7.png
-  artifactKey: Guid(93594077d4070e04ba76bedf52d95e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile7.png using Guid(93594077d4070e04ba76bedf52d95e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2d4dd4f99fcd9ce5ac29401f3a6efb') in 0.011207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/GameArt/TileMap/TempTile13.asset
-  artifactKey: Guid(8e57b8f73832b654094ffcce0fd19c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile13.asset using Guid(8e57b8f73832b654094ffcce0fd19c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b067aeb0bb4345474b490e4bfa28919') in 0.010796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/GameArt/TileMap/TempTile7.asset
-  artifactKey: Guid(5482b71736a246047b49a98672764949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile7.asset using Guid(5482b71736a246047b49a98672764949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a423ac4db1da317594ed9b67733b79') in 0.008321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/GameArt/TileMap/TempTile10.png
-  artifactKey: Guid(05eba58ce06fe914e9fe499ec9034694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile10.png using Guid(05eba58ce06fe914e9fe499ec9034694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aac1d4a015ba499a684f25ac15fcaad') in 0.012273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/GameArt/TileMap/TempTile10.asset
-  artifactKey: Guid(84a8aec545b5b1343b6c661659c9f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile10.asset using Guid(84a8aec545b5b1343b6c661659c9f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2878b8f1b1799e44891c3ace737842c') in 0.012165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/GameArt/TileMap/TempTile13.png
-  artifactKey: Guid(5a9d88b7cf38efc45b893485a4788cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile13.png using Guid(5a9d88b7cf38efc45b893485a4788cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6d3ac94f6a95d3002216e0e6e1bbc3') in 0.011222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/GameArt/TileMap/TempTile2.asset
-  artifactKey: Guid(c69b029da9b1c9e4ba249101f73aabbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile2.asset using Guid(c69b029da9b1c9e4ba249101f73aabbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794503eda3cca025e3010c00e1fea460') in 0.008706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/GameArt/TileMap/TempTile3.png
-  artifactKey: Guid(16ad556f46552bf4aaaed3edb3799df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile3.png using Guid(16ad556f46552bf4aaaed3edb3799df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb39a42adca619b9c49154558c5e6ad') in 0.014413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.580891 seconds.
-  path: Assets/GameArt/TileMap/TempTile.png
-  artifactKey: Guid(a9f84b5af9663f64d8cb55340ffb4bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile.png using Guid(a9f84b5af9663f64d8cb55340ffb4bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06929b71334a3f99f8f5e4fe5a6ada19') in 0.012118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/GameArt/TileMap/TempTile5.png
-  artifactKey: Guid(374c5d5bc404ff747957a5d29e1ae7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile5.png using Guid(374c5d5bc404ff747957a5d29e1ae7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0aa7eeac4bd89c0500cde181cd83de') in 0.012362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/GameArt/TileMap/TempTile9.png
-  artifactKey: Guid(6ed9ec9eb856d4d4b9db9dbb2b845f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile9.png using Guid(6ed9ec9eb856d4d4b9db9dbb2b845f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa38e1f28a48c18ce89c5294c28282b4') in 0.014824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/GameArt/TileMap/TempTile4.png
-  artifactKey: Guid(016f5dd06cf5b9c468d3639e03e56b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile4.png using Guid(016f5dd06cf5b9c468d3639e03e56b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5476113a4f563374d8e6d5fd501cc688') in 0.011004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/GameArt/TileMap/TempTile6.png
-  artifactKey: Guid(a0d4f996513c1a743be514efd95f56b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile6.png using Guid(a0d4f996513c1a743be514efd95f56b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5614698ff7032b05fb9e4ab08778f990') in 0.012492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/GameArt/TileMap/TempTile8.png
-  artifactKey: Guid(1af3fff932a55984482c6cc6268743a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile8.png using Guid(1af3fff932a55984482c6cc6268743a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9376b906c14aa24a5a2ec4bceb5066f7') in 0.013259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/GameArt/TileMap/TempTile11.png
-  artifactKey: Guid(a781a87818260254698e4e207d217b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile11.png using Guid(a781a87818260254698e4e207d217b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5174c29fe67f6ec2cc838c82067dca50') in 0.017706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/GameArt/TileMap/TempTile12.png
-  artifactKey: Guid(ccc6ac9b1c9533a419b5f126a54d2ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile12.png using Guid(ccc6ac9b1c9533a419b5f126a54d2ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcce3d51264652530fa87ccc4522afa') in 0.010046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/GameArt/TileMap/TempTile7.png
-  artifactKey: Guid(93594077d4070e04ba76bedf52d95e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile7.png using Guid(93594077d4070e04ba76bedf52d95e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3427f6e7eee206ed371e1bdda200054d') in 0.010554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/GameArt/TileMap/TempTile10.png
-  artifactKey: Guid(05eba58ce06fe914e9fe499ec9034694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile10.png using Guid(05eba58ce06fe914e9fe499ec9034694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd69eb8688f37349fd0d88d808894c2') in 0.009804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/GameArt/TileMap/TempTile13.png
-  artifactKey: Guid(5a9d88b7cf38efc45b893485a4788cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile13.png using Guid(5a9d88b7cf38efc45b893485a4788cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412131b3564d94aac50ee0ed6e9d4a7f') in 0.009358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/GameArt/TileMap/TempTile3.png
-  artifactKey: Guid(16ad556f46552bf4aaaed3edb3799df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/TileMap/TempTile3.png using Guid(16ad556f46552bf4aaaed3edb3799df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03a02861cce62fc42cb1507ec2ce31e') in 0.011036 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003348 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\arthi\Documents\UnityProjects\PortfolioPlatformer\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.6 MB.
-System memory in use after: 187.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5678.
-Total: 3.610600 ms (FindLiveObjects: 0.401000 ms CreateObjectMapping: 0.258300 ms MarkObjects: 2.681000 ms  DeleteObjects: 0.269300 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.9 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 5678.
-Total: 3.215800 ms (FindLiveObjects: 0.392000 ms CreateObjectMapping: 0.264100 ms MarkObjects: 2.356500 ms  DeleteObjects: 0.202600 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5075.
+Total: 2.428600 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.198000 ms MarkObjects: 1.849800 ms  DeleteObjects: 0.084800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
