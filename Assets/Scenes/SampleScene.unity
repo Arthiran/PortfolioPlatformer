@@ -27530,7 +27530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4886250143854186712, guid: b0b21c80fd73ec447a6705ebd78f766b, type: 3}
       propertyPath: DialogTextBlocks.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4886250143854186712, guid: b0b21c80fd73ec447a6705ebd78f766b, type: 3}
       propertyPath: DialogTextBlocks.Array.data[0]
@@ -27538,11 +27538,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4886250143854186712, guid: b0b21c80fd73ec447a6705ebd78f766b, type: 3}
       propertyPath: DialogTextBlocks.Array.data[1]
-      value: Here you can find my school projects, and my solo projects!
+      value: Here you can find my works ranging from school projects to solo projects.
       objectReference: {fileID: 0}
     - target: {fileID: 4886250143854186712, guid: b0b21c80fd73ec447a6705ebd78f766b, type: 3}
       propertyPath: DialogTextBlocks.Array.data[2]
-      value: 
+      value: On each, you'll be able to find a link to either the project page, or
+        the store page for the game.
       objectReference: {fileID: 0}
     - target: {fileID: 4886250143854186714, guid: b0b21c80fd73ec447a6705ebd78f766b, type: 3}
       propertyPath: m_RootOrder
@@ -48907,6 +48908,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3287588353603760642, guid: 3c261e371a8e05f44978cdacc502fe80, type: 3}
+      propertyPath: m_Name
+      value: ContactBtn
+      objectReference: {fileID: 0}
+    - target: {fileID: 3322090091997750652, guid: 3c261e371a8e05f44978cdacc502fe80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 176424822, guid: 3c261e371a8e05f44978cdacc502fe80, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3c261e371a8e05f44978cdacc502fe80, type: 3}
@@ -49037,6 +49046,15 @@ PrefabInstance:
     - target: {fileID: 4886250143854186693, guid: b0b21c80fd73ec447a6705ebd78f766b, type: 3}
       propertyPath: m_Name
       value: IntroDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 4886250143854186712, guid: b0b21c80fd73ec447a6705ebd78f766b, type: 3}
+      propertyPath: DialogTextBlocks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4886250143854186712, guid: b0b21c80fd73ec447a6705ebd78f766b, type: 3}
+      propertyPath: DialogTextBlocks.Array.data[2]
+      value: If you find anything interesting, click the button at the top left to
+        contact me.
       objectReference: {fileID: 0}
     - target: {fileID: 4886250143854186714, guid: b0b21c80fd73ec447a6705ebd78f766b, type: 3}
       propertyPath: m_RootOrder
