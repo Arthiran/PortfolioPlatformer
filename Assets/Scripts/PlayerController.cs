@@ -44,6 +44,9 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 RopeOffset;
 
+    [HideInInspector]
+    public bool DialogOpen = false;
+
     void Start()
     {
         Sprites = GetComponent<SpriteRenderer>();
@@ -64,6 +67,13 @@ public class PlayerController : MonoBehaviour
         CharAnimator.SetFloat("YVelocity", RigidBody.velocity.y);
         CharAnimator.SetBool("Grounded", CheckGrounded);
         CharAnimator.SetBool("OnWall", CheckOnWall || CanClimb);
+
+        // Checks if dialog box isn't open
+        if (DialogOpen)
+        {
+            RigidBody.velocity = new Vector2(RigidBody.velocity.x, RigidBody.velocity.y);
+            return;
+        }
 
         HVelocity = !CanClimb ? Input.GetAxisRaw("Horizontal") : 0;
 
@@ -101,6 +111,12 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // Checks if dialog box isn't open
+        if (DialogOpen)
+        {
+            return;
+        }
+
         // Executing movement in physics update
         if (CanJump)
         {
