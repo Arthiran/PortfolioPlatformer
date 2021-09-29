@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
         // Checks if dialog box isn't open
         if (DialogOpen)
         {
-            RigidBody.velocity = new Vector2(RigidBody.velocity.x, RigidBody.velocity.y);
+            RigidBody.velocity = new Vector2(0, RigidBody.velocity.y);
             return;
         }
 
