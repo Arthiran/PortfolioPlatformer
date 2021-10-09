@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1.3222}
+  m_AnchoredPosition: {x: 0, y: -1.225}
   m_SizeDelta: {x: 6.502, y: 0.6792}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1006936023
@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  - {fileID: -7905889457512250638, guid: 749348d44bc84714d92efd7df4e5cdba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -99,10 +99,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsummmmmmmmmmmmmm
+  m_text: 'Role(s): Gameplay Programmer, Animator | Team Size: 6 | Language: C++
+    (OpenGL)
+
+
+    For a second year school project, my team and I developed a local
+    multiplayer fighting game where the objective of the game is to hit the opponent
+    into the net.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 749348d44bc84714d92efd7df4e5cdba, type: 2}
+  m_sharedMaterial: {fileID: -7905889457512250638, guid: 749348d44bc84714d92efd7df4e5cdba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -126,7 +132,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 1.75
+  m_fontSize: 1.3
   m_fontSizeBase: 1.75
   m_fontWeight: 400
   m_enableAutoSizing: 0
@@ -138,7 +144,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 5
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -228,7 +234,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  - {fileID: -7905889457512250638, guid: 749348d44bc84714d92efd7df4e5cdba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -272,8 +278,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BasketBrawlers
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 749348d44bc84714d92efd7df4e5cdba, type: 2}
+  m_sharedMaterial: {fileID: -7905889457512250638, guid: 749348d44bc84714d92efd7df4e5cdba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -565,7 +571,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1332,7 +1338,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.175, y: 0}
-  m_SizeDelta: {x: 1.3306, y: 0.2924}
+  m_SizeDelta: {x: 1.3306, y: 0.2456}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &6374776335194056517
 MeshRenderer:
@@ -1354,7 +1360,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0d342b259a84e2142870c6fe6b154ece, type: 2}
+  - {fileID: -7905889457512250638, guid: 749348d44bc84714d92efd7df4e5cdba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1398,15 +1404,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Project Link
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 0d342b259a84e2142870c6fe6b154ece, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 749348d44bc84714d92efd7df4e5cdba, type: 2}
+  m_sharedMaterial: {fileID: -7905889457512250638, guid: 749348d44bc84714d92efd7df4e5cdba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1423,8 +1429,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.5
-  m_fontSizeBase: 2.5
+  m_fontSize: 1.8
+  m_fontSizeBase: 1.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
