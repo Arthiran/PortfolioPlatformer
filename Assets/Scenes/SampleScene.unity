@@ -285,7 +285,6 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Role(s): Gameplay Programmer | Team Size: 5 | Language: C# (Unity Engine)
 
-
         For
         my team''s third year project, we developed a multiplayer game which combines
         parkour, and dodgeball to pit 4 players against each other to battle to be
@@ -701,7 +700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4426881147884721496, guid: f49b6b653a0fec943ba9340273f1a1e4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 41.25
+      value: 56.17
       objectReference: {fileID: 0}
     - target: {fileID: 4426881147884721496, guid: f49b6b653a0fec943ba9340273f1a1e4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -30055,7 +30054,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4426881147884721496, guid: f49b6b653a0fec943ba9340273f1a1e4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 56.17
+      value: 41.25
       objectReference: {fileID: 0}
     - target: {fileID: 4426881147884721496, guid: f49b6b653a0fec943ba9340273f1a1e4, type: 3}
       propertyPath: m_LocalPosition.y
